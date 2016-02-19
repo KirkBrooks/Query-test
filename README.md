@@ -53,7 +53,7 @@ The time difference is huge.
 Especially for methods with multiple parameters. 
 ######When compiled the difference between a single param naked query and a method is not significant. 
 	
-######The avg difference in a single param query method using a 4D param and usa a c-obj for params is about .0004 ms per query. Small but statistically significant. 
+######The avg difference in a single param query method using a 4D param and usa a c-obj for params is about .004 ms per query. Small but statistically significant. 
 While statistically significant I'm not sure it would be noticeable in the real world. 
 ######The difference in 2 param queries using 4D params and a c-obj is not significant.
 ######The difference in 4 param queries using 4D params and a c-obj is significant but small at about .0017 ms. 
