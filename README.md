@@ -44,7 +44,7 @@ This database illustrates the differences in these approaches.
 I create an array of 1000 elements with random numbers. Each test loops through this array 20 times for 20k queries per test. Overall the longest test was 181 ms or 0.181 ms per query and the shortest was 25 ms or 0.025 ms. 
 
 I ran each test suites interpreted then compiled it and ran the same test again. See the data set document for the results I'm discussing. To create your own data run QUERY_TEST and QUERY_TEST2. Click on the displayed report to copy to your clipboard. I used 
-http://graphpad.com/ to do the statistical analysis. 
+[GraphPad](http://graphpad.com/) to do the statistical analysis. 
 
 ##Results
 ######Use indexes for critical fields. 
